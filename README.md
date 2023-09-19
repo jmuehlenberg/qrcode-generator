@@ -54,3 +54,24 @@ The file is composed of four lines:
    - Example: `Scan code to report a malfunction.`
   
 ---
+
+### What is `room.csv`?
+
+`room.csv` is a plain CSV file that contains the room numbers. The file is simple and straightforward: each line represents a different room number.
+
+### Structure
+
+The file is organized in a single-column format, with each room number on its own line:
+
+```
+101
+102
+103
+...
+```
+
+### Purpose
+
+The purpose of this file is to allow for the mass generation of QR codes corresponding to the room numbers listed. Each room number will generate a QR code that encodes a `mailto:` URL with customizable email details sourced from `mailto.txt`.
+
+---
