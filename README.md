@@ -34,10 +34,7 @@ python3 qrcode-generator.py -csv /path/to/room.csv -mailto /path/to/mailto.txt -
 ### Graphical Mode
 When running the script without any arguments, it will launch in graphical mode. Follow the on-screen instructions to select the CSV and mailto files, output directory, and whether or not to include an image in the center of the QR code.
 
-
 ---
-
-## How `mailto.txt` works with the QR code generator
 
 ### What is `mailto.txt`?
 
