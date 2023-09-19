@@ -8,6 +8,8 @@ This Python script generates QR codes based on room numbers listed in a CSV file
 - Python 3.x
 - Required Libraries: `csv`, `argparse`, `subprocess`, `tkinter`, `PIL`
 
+You can run the installer.sh to install all dependencies.
+
 ### Usage
 #### Headless Mode
 In headless mode, you can specify options through command-line arguments. Here's how to use the script:
