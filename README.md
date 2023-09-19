@@ -15,7 +15,7 @@ You can run the installer.sh to install all dependencies.
 In headless mode, you can specify options through command-line arguments. Here's how to use the script:
 
 ```bash
-python3 qrcode-generator.py -csv /path/to/room.csv -mailto /path/to/mailto.txt -output /path/to/output -textsize 4
+python3 qrcode-generator.py -csv /path/to/room.csv -mailto /path/to/mailto.txt -output /path/to/output
 ```
 
 #### Options
@@ -28,7 +28,7 @@ python3 qrcode-generator.py -csv /path/to/room.csv -mailto /path/to/mailto.txt -
 To generate QR codes based on a CSV file located at `/path/to/room.csv`, with mail information from `/path/to/mailto.txt`, saving the output to `/path/to/output`, and with a text size of 42:
 
 ```bash
-python3 qrcode-generator.py -csv /path/to/room.csv -mailto /path/to/mailto.txt -output /path/to/output -textsize 42
+python3 qrcode-generator.py -csv /path/to/room.csv -mailto /path/to/mailto.txt -output /path/to/output -textsize 32
 ```
 
 ### Graphical Mode
