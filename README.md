@@ -33,3 +33,27 @@ python3 qrcode-generator.py -csv /path/to/room.csv -mailto /path/to/mailto.txt -
 
 ### Graphical Mode
 When running the script without any arguments, it will launch in graphical mode. Follow the on-screen instructions to select the CSV and mailto files, output directory, and whether or not to include an image in the center of the QR code.
+
+
+---
+
+## How `mailto.txt` works with the QR code generator
+
+### What is `mailto.txt`?
+
+`mailto.txt` is a plain text file that contains essential information for generating QR codes with embedded mailto links.
+
+### Structure
+
+The file is composed of four lines:
+
+1. **Email Address**: The email address where the QR code scanned email should be sent.
+   - Example: `support@yourcompany.com`
+2. **Email Subject Prefix**: This text will be prefixed to the room number to form the subject of the email and will be added at the bottom of the QR code image.
+   - Example: `Problems Room:`
+3. **Email Body Text**: This text will be appended to the room number to form the body of the email.
+   - Example: `I hereby report a malfunction in the room.`
+4. **QR Image Caption**: A short text that will be added at the top of the QR code image to provide additional information.
+   - Example: `Scan code to report a malfunction.`
+  
+---
